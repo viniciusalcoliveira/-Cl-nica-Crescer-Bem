@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Anamnese</title>
+  <link rel="stylesheet" href="assets/css/anamnese.css">
+</head>
+<body>
+  <main>
+    <form method="post" action="includes/anamnese.php">
+      <h2>Formulário de Anamnese</h2>
+
+      <label for="responsavel">Nome do responsável:</label>
+      <input type="text" id="responsavel" name="responsavel" required>
+
+      <label for="crianca">Nome da criança:</label>
+      <input type="text" id="crianca" name="crianca" required>
+
+      <label for="idade">Idade da criança:</label>
+      <input type="number" id="idade" name="idade" required>
+
+      <label for="comportamento">Descreva o comportamento observado:</label>
+      <textarea id="comportamento" name="comportamento" required></textarea>
+
+      <label for="historico">Histórico de saúde:</label>
+      <textarea id="historico" name="historico"></textarea>
+
+      <input type="submit" value="Enviar">
+
+      <div class="back-link">
+        <a href="index.html">← Voltar para a página principal</a>
+      </div>
+    </form>
+  </main>
+
+  <footer>
+    <p>© 2025 Clínica Modelar. Todos os direitos reservados.</p>
+  </footer>
+</body>
+</html>
